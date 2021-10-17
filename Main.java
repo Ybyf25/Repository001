@@ -23,8 +23,8 @@ import java.util.Scanner;
                     isCorrect = false;
                 }
             } while (!isCorrect);
-            double x = 0.34;
-            double nextX = x;
+            double x0 = 0.34;
+            double nextX = x0;
             do {
                 currentX = nextX;
                 nextX = (9.33 / 7.25) * Math.sin(6.977 * currentX);
@@ -34,8 +34,8 @@ import java.util.Scanner;
             double x1 = nextX;
             System.out.println("Корень: " + x1);
             System.out.println("Корень: " + (-x1));
-            x = 1.034;
-            nextX = x;
+            x0 = 1.034;
+            nextX = x0;
             do {
                 currentX = nextX;
                 nextX = (9.33 / 7.25) * Math.sin(6.977 * currentX);
@@ -45,8 +45,8 @@ import java.util.Scanner;
             double x2 = nextX;
             System.out.println("Корень: " + x2);
             System.out.println("Корень: " + (-x2));
-            x = 1.183;
-            nextX = x;
+            x0 = 1.183;
+            nextX = x0;
             do {
                 currentX = nextX;
                 nextX = (9.33 / 7.25) * Math.sin(6.977 * currentX);
