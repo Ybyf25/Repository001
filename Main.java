@@ -55,6 +55,16 @@ import java.util.Scanner;
             } while (!(Math.abs(currentX - nextX) < accuracy) || (Math.abs(Math.abs(nextX) - Math.abs(x1)) < 0.13) || (Math.abs(Math.abs(nextX) - Math.abs(x2)) < 0.13) || (Math.abs(nextX) < 0.1));
             System.out.println("Корень: " + nextX);
             System.out.println("Корень: " + (-nextX));
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             System.out.println("Корень: 0");
         }
     }
